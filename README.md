@@ -18,10 +18,10 @@ A history site organised around Past, Present and Future rather than a flat arch
 
 Written and built from scratch, including the editorial content. Deployed on Netlify.
 
-**Locus** · React 19, TypeScript, KaTeX, Tailwind
+**[Locus](https://a-e70.github.io/alevel-desk/)** · React 19, TypeScript, KaTeX, Tailwind
 A study desk for Edexcel A Level Physics, Mathematics and Further Mathematics. All 205 specification topics, tracked through three states, driving progress views and a resume list. Notes with real rendered equations, photographed working, and a curated set of study links.
 
-Local first by design: everything lives in the browser, so it works offline and no study data leaves the machine. Optional AI tutoring uses the reader's own API key, held in local storage and never sent anywhere else.
+[Source](https://github.com/A-e70/alevel-desk). Local first by design: everything lives in the browser, so it works offline and no study data leaves the machine. Optional AI tutoring uses the reader's own API key, held in local storage and never sent anywhere else.
 
 ### Working with
 
