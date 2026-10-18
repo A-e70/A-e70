@@ -1,46 +1,47 @@
 ## Ilana River
 
-I build tools that solve problems I actually ran into, and I write up what went wrong while building them.
+I build tools for problems I actually ran into, and I write up what went wrong while building them.
 
-Mostly systems and data work on Linux: file formats, encryption at rest, recovery, automation. I like the problems where the answer is buried in a binary layout or an undocumented schema and you have to read the source to find it. I also build web applications and sites when the problem calls for one.
+Most of it is systems and data work on Linux: file formats, encryption at rest, recovery, automation. I like problems where the answer is buried in a binary layout or an undocumented schema and you have to read the source to find it. When a problem needs a web app or a site, I build that too.
 
-Background in mathematics and physics, which is why I gravitate toward the parts of software that have a correct answer rather than an opinion. A lot of what I make checks work instead of generating it.
+My background is maths and physics, so I lean toward the parts of software that have a correct answer. A lot of what I make checks work. It doesn't generate it.
 
 ### Work
 
 **[chatvault](https://github.com/A-e70/chatvault)** · Python, SQLCipher, AES
-Gets your own messages and media out of desktop chat apps, including when the app will no longer open them. An adapter answers four questions about one application and the core handles Electron `safeStorage` unwrapping across keyring backends, SQLCipher, and per-file attachment decryption with HMAC verification. Signal and Session adapters, verified against real profiles.
+Gets your own messages and media out of desktop chat apps, even when the app won't open them anymore. Each adapter answers four questions about one app. The core does the rest: Electron `safeStorage` unwrapping across keyring backends, SQLCipher, and per-file attachment decryption with HMAC checks. Signal and Session adapters are tested against real profiles.
 
-Gaps are reported in four categories rather than one count, because "nine files missing" cannot tell you whether you lost photographs or footnotes.
+Missing files are sorted into four categories, because "nine files missing" can't tell you whether you lost photographs or footnotes.
 
 **[starfold](https://github.com/A-e70/starfold)** · JavaScript, no dependencies
-Find a planet in real telescope data, in your browser. A Box Least Squares transit search over TESS light curves, written from scratch, with no server and no library.
+Find a planet in real telescope data, in your browser. It runs a Box Least Squares transit search over TESS light curves. I wrote the search myself. There's no server and no library.
 
 **[entolog](https://github.com/A-e70/entolog)** · Python standard library
-Turns a folder of insect photographs into a species record table, with the fields the recorder chooses. Works in a window, a terminal or your own `$EDITOR`, and exports a Darwin Core Archive. No dependencies to install.
+Turns a folder of insect photos into a species record table, with whatever fields the recorder picks. You can use it in a window, in a terminal, or in your own `$EDITOR` and image viewer. It exports a Darwin Core Archive and needs nothing installed.
 
 **[face-grouper](https://github.com/A-e70/face-grouper)** · OpenCV, scikit-learn
-Sorts a folder of photos into one folder per person, on CPU, with no GPU and nothing leaving the machine. Deliberately does not classify gender: those models are unreliable and fail hardest on the people most harmed by being sorted wrongly.
+Sorts a folder of photos into one folder per person, on a CPU, and nothing leaves the machine. It doesn't guess gender on purpose. Those models are unreliable, and they fail worst on the people who get hurt most by a wrong label.
 
-The README documents the threshold that nearly broke it. At a sensible looking 0.85 the detector found faces in zero of eighty real phone photos and reported a clean run.
+The README covers the threshold that nearly broke it. At 0.85, which looks sensible, the detector found faces in zero of eighty real phone photos and still reported a clean run.
 
 **[Locus](https://locus-ae70.pages.dev/)** · React 19, TypeScript, KaTeX, Tailwind
-A study app for Edexcel A Level Physics, Mathematics and Computer Science. Its step checker reads your working line by line in exact arithmetic, so it catches a right answer reached the wrong way. Local first: study data stays in the browser.
+A study app for Edexcel A Level Physics, Maths and Computer Science. The step checker reads your working line by line in exact arithmetic, so it catches a right answer reached the wrong way. Your study data stays in your browser.
 
 **[Chronicled](https://timely-puppy-efee0c.netlify.app/)** · TanStack Start, React 19, Vite, Tailwind
-A history site organised around Past, Present and Future rather than a flat archive, with an interactive world map for browsing events by place and a research view that queries several open sources at once. Written and built from scratch, including the editorial content.
+A history site split into Past, Present and Future. There's a world map for browsing events by place and a research view that searches several open sources at once. I wrote the articles and built the site from scratch.
 
 ### Writing
 
-**[The Assay](https://theassay.pages.dev/)**: my own technical publication.
-**[Notes on what went wrong](https://github.com/A-e70/writing)**: recovering data from an app that locked me out, and a detector that found nothing while reporting success.
+[The Assay](https://theassay.pages.dev/) is my own technical publication.
+
+[Notes on what went wrong](https://github.com/A-e70/writing) has two so far: getting my data back from an app that locked me out, and a face detector that found nothing and reported success.
 
 ### Studio
 
-**[Pellix](https://pellix.pages.dev/)**: custom websites for architecture and building practices, designed and built by hand.
+[Pellix](https://pellix.pages.dev/) is my web design studio. I build custom sites by hand for architecture and building practices.
 
 ### Working with
 
-Python, TypeScript, React, SQL, Linux, shell. Comfortable in a database or a hex dump. Learning Go.
+Python, TypeScript, React, SQL, Linux and shell. I'm comfortable in a database or a hex dump. Learning Go.
 
-Based in Bangladesh, UTC+6. Reachable at adlie72ae@gmail.com.
+Based in Bangladesh, UTC+6. Email me at adlie72ae@gmail.com.
