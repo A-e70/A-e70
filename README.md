@@ -44,4 +44,4 @@ A history site split into Past, Present and Future. There's a world map for brow
 
 Python, TypeScript, React, SQL, Linux and shell. I'm comfortable in a database or a hex dump. Learning Go.
 
-Based in Bangladesh, UTC+6. Email me at adlie72ae@gmail.com.
+Based in Bangladesh, UTC+6. Email me at adlie72ae@gmail.com, or see [ilanariver.pages.dev](https://ilanariver.pages.dev/).
