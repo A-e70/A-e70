@@ -9,7 +9,7 @@ My background is maths and physics, so I lean toward the parts of software that 
 ### Work
 
 **[chatvault](https://github.com/A-e70/chatvault)** · Python, SQLCipher, AES
-Gets your own messages and media out of desktop chat apps, even when the app won't open them anymore. Each adapter answers four questions about one app. The core does the rest: Electron `safeStorage` unwrapping across keyring backends, SQLCipher, and per-file attachment decryption with HMAC checks. Signal and Session adapters are tested against real profiles.
+Gets your own messages and media out of desktop chat apps, even when the app won't open them anymore. Each adapter answers four questions about one app. The core does the rest: Electron `safeStorage` unwrapping across keyring backends, SQLCipher, and per-file attachment decryption with HMAC checks. Adding a new messaging app takes one small adapter, and the ones I have built are tested against real profiles.
 
 Missing files are sorted into four categories, because "nine files missing" can't tell you whether you lost photographs or footnotes.
 
